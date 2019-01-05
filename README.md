@@ -36,7 +36,7 @@ Level2 checks if you can manage Component based design
     return(
       <div>
         {Something.map(item => (
-          <pre><Slider 
+          <Slider 
             min={item.min}
             ......
           />
