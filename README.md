@@ -32,6 +32,7 @@ Level2 checks if you can manage Component based design
 2. Supply css classes, parameters via props.
 3. Use map function in Home: push different props to Slider component in Home.
 4. Your Home's return should look like: 
+<pre>
           return (
             <div>
               {Something.map(item => (
@@ -42,6 +43,7 @@ Level2 checks if you can manage Component based design
               ))}
             </div>
           );
+</pre>
 5. Output result to console and near the thumb of the slider.
 
 ##Level3
